@@ -24703,6 +24703,13 @@
         </Folder>
       </Folder>
     </Folder>
+
+	<Style id="toggler">
+      <ListStyle>
+        <listItemType>radioFolder</listItemType>
+      </ListStyle>
+    </Style>
+
     <Folder>
       <name>Travel-time ratios</name>
       <Folder>
@@ -24726,6 +24733,7 @@
         <Folder>
           <name>prePA preHOV</name>
         </Folder>
+		<styleUrl>#toggler</styleUrl>
       </Folder>
       <Folder>
         <name>DVP South</name>
@@ -24748,13 +24756,9 @@
         <Folder>
           <name>prePA preHOV</name>
         </Folder>
+		<styleUrl>#toggler</styleUrl>
       </Folder>
+	  <styleUrl>#toggler</styleUrl>
     </Folder>
-
-    <Style id="toggler">
-      <ListStyle>
-        <listItemType>radioFolder</listItemType>
-      </ListStyle>
-    </Style>
   </Document>
 </kml>
