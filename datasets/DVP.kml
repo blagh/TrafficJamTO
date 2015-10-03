@@ -31928,32 +31928,6 @@
 
             </Folder>
         </Folder>
-		<!--ScreenOverlay>
-            <name>TomTom</name>
-            <Icon><href>images/TomTomNewLogo.png</href></Icon>
-            <overlayXY x="0.02" y="0.065" xunits="fraction" yunits="fraction"/>
-            <screenXY x="0.02" y="0.065" xunits="fraction" yunits="fraction"/>
-            <rotationXY x="0.0" y="0.0" xunits="fraction" yunits="fraction"/>
-            <size x="0.27" y="0.0" xunits="fraction" yunits="fraction"/>
-        </ScreenOverlay>
-        <ScreenOverlay>
-           <name>Speed legend</name>
-            <visibility>0</visibility>
-            <Icon><href>images/legendForKMLSpeedsMetric.png</href></Icon>
-            <overlayXY x="0.0" y="1.0" xunits="fraction" yunits="fraction"/>
-            <screenXY x="0.0" y="1.0" xunits="fraction" yunits="fraction"/>
-            <rotationXY x="0.0" y="0.0" xunits="fraction" yunits="fraction"/>
-            <size x="0.65" y="0.0" xunits="fraction" yunits="fraction"/>
-        </ScreenOverlay>
-        <ScreenOverlay>
-            <name>Travel time ratios legend</name>
-            <visibility>0</visibility>
-            <Icon><href>images/legendForKMLSpeedRatios.png</href></Icon>
-            <overlayXY x="0.0" y="1.0" xunits="fraction" yunits="fraction"/>
-            <screenXY x="0.0" y="1.0" xunits="fraction" yunits="fraction"/>
-            <rotationXY x="0.0" y="0.0" xunits="fraction" yunits="fraction"/>
-            <size x="0.55" y="0.0" xunits="fraction" yunits="fraction"/>
-        </ScreenOverlay-->
 
 		<ListStyle id="toggler">
 			<listItemType>radioFolder</listItemType>
