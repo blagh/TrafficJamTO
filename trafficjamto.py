@@ -7,6 +7,9 @@ DEBUG = True
 GOOGLE_API_KEY = 'AIzaSyBtUhdT_gnCH1rsmc54NFm_nK4uscIqhOg'
 TOMTOM_API_KEY = 'toronto_trafficjam'
 
+LOCAL_ROOT = 'http://127.0.0.1:5000/'
+GITHUB_ROOT = 'https://raw.githubusercontent.com/blagh/TrafficJamTO/master/'
+
 # These are the "Tableau 20" colors as RGB.
 TABLEAU20 = [(31, 119, 180), (174, 199, 232), (255, 127, 14), (255, 187, 120),
              (44, 160, 44), (152, 223, 138), (214, 39, 40), (255, 152, 150),
@@ -30,7 +33,7 @@ def index():
 @app.route("/plot/<render>")
 def plot(render=False):
 	data = get_data(file, render)
-	return render_template('plot.html', maps=data['maps'], api_key=GOOGLE_API_KEY)
+	return render_template('plot.html', maps=data['maps'], api_key=GOOGLE_API_KEY, github_root=GITHUB_ROOT)
 
 @app.route("/datasets/<file>")
 def datasets(file):

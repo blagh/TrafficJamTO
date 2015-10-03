@@ -3,13 +3,18 @@ import matplotlib.pyplot as plt
 from pykml import parser
 
 def get_data(folder='./datasets', render=False):
-	maps = ['http://127.0.0.1:5000/datasets/DVP.kml']
+	files = ['datasets/DVP.kml']
+	maps = []
+
+	#for file in maps:
+	#	with open(file) as f:
+	#		maps.append(parser.parse(f))
 
 	graphs = []
 	for graph in graphs:
 		pass # render plot
 
-	return {'maps': maps, 'graphs': graphs}
+	return {'maps': files, 'graphs': graphs}
 
 
 

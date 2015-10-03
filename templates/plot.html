@@ -9,7 +9,7 @@
 {% endblock content %}
 {% block endscripts %}
 	<script>
-		var maps, gmap;
+		var maps, gmap, mapLayer;
 
 		function initMap() {
 			gmap = new google.maps.Map(document.getElementById('map'), {
@@ -26,11 +26,12 @@
 			google.maps.event.addListener(map, 'zoom_changed', spitMapsInfo);
 			*/
 
-			maps = {{ maps|tojson }}
+			maps = {{ maps|tojson }};
+			github = {{ github_root|tojson }};
 			if (maps.length) {
 				for (i = 0; i < maps.length; i++) {
-					var ctaLayer = new google.maps.KmlLayer({ url: maps[i] });
-					ctaLayer.setMap(gmap);
+					mapLayer = new google.maps.KmlLayer({ url: github + maps[i] });
+					mapLayer.setMap(gmap);
 				}
 			}
 		}
