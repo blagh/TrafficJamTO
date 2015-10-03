@@ -13,9 +13,21 @@ def index():
 def hello(name = None):
 	return render_template('hello.html', name=name)
 	
-@app.route("/map")
-def map(center, zoom)
-	return render_tempalte('map.html', center=center, zoom=zoom)
+@app.route('/map')
+@app.route("/map/<lat>/<long>/<zoom>")
+def map(lat=None, long=None, zoom=None):
+	return render_template('map.html', lat=lat, long=long, zoom=zoom)
+
+
+@app.route('/plot')
+def plotIndex():
+	pass # show list of datasets available
+
+@app.route('/plot/<file>/<render>')
+def plot(file, render=False):
+	file = get_file(file, render):
+	return render_template('plot.html', file)
+
 	
 if __name__ == "__main__":
 	app.run()
