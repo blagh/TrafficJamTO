@@ -1,6 +1,41 @@
+{% extends "base.html" %}
+
 {% block title %}Plot the things{% endblock %}
 {% block content %}
 	<h1>Plot the things</h1>
-	<p>File: <b>{{file.name}}</b></p>
-	<img src="{{file.image}}">
+	<div id="stuff"></div>
+	<div id="map-info"></div>
+	<div id="map"></div>
 {% endblock content %}
+{% block endscripts %}
+	<script>
+		var maps, gmap;
+
+		function initMap() {
+			gmap = new google.maps.Map(document.getElementById('map'), {
+				zoom: 12,
+				center: {lat: 43.66829213711165, lng: -79.4348940124512}
+			});
+
+			/*
+			function spitMapsInfo() {
+				$("#map-info").html("Center: " + map.center + "<br />Zoom: " + map.zoom);
+			}
+
+			google.maps.event.addListener(map, 'center_changed', spitMapsInfo);
+			google.maps.event.addListener(map, 'zoom_changed', spitMapsInfo);
+			*/
+
+			maps = {{ maps|tojson }}
+			if (maps.length) {
+				for (i = 0; i < maps.length; i++) {
+					var ctaLayer = new google.maps.KmlLayer({ url: maps[i] });
+					ctaLayer.setMap(gmap);
+				}
+			}
+		}
+	</script>
+	<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key={{ api_key }}&signed_in=true&callback=initMap">
+    </script>
+{% endblock %}
