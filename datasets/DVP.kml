@@ -31928,7 +31928,7 @@
 
             </Folder>
         </Folder>
-		<ScreenOverlay>
+		<!--ScreenOverlay>
             <name>TomTom</name>
             <Icon><href>images/TomTomNewLogo.png</href></Icon>
             <overlayXY x="0.02" y="0.065" xunits="fraction" yunits="fraction"/>
@@ -31953,7 +31953,7 @@
             <screenXY x="0.0" y="1.0" xunits="fraction" yunits="fraction"/>
             <rotationXY x="0.0" y="0.0" xunits="fraction" yunits="fraction"/>
             <size x="0.55" y="0.0" xunits="fraction" yunits="fraction"/>
-        </ScreenOverlay>
+        </ScreenOverlay-->
 
 		<ListStyle id="toggler">
 			<listItemType>radioFolder</listItemType>
