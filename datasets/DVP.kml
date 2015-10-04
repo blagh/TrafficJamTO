@@ -2,6 +2,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://earth.google.com/kml/2.0">
   <Document>
+	<name>HOV &amp; Pan Am</name>
+	<open>1</open>
+  	<Style id="toggler">
+      <ListStyle>
+        <listItemType>radioFolder</listItemType>
+      </ListStyle>
+    </Style>
     <Style id="s_aa340034">
       <LineStyle>
         <width>5.0</width>
@@ -123,6 +130,8 @@
       </LineStyle>
     </Style>
     <Folder>
+	  <styleUrl>#toggler</styleUrl>
+	  <open>1</open>
       <name>Speeds</name>
       <Folder>
         <name>DVP North</name>
@@ -24702,63 +24711,6 @@
           </Folder>
         </Folder>
       </Folder>
-    </Folder>
-
-	<Style id="toggler">
-      <ListStyle>
-        <listItemType>radioFolder</listItemType>
-      </ListStyle>
-    </Style>
-
-    <Folder>
-      <name>Travel-time ratios</name>
-      <Folder>
-        <name>DVP North</name>
-        <description>Map Version: [CanadaAndUSANorth+motorway200_TeleAtlas_nam2014.06-22.0-39@1599535.1402689634]</description>
-        <Folder>
-          <name>postPA</name>
-        </Folder>
-        <Folder>
-          <name>PPA 2HOV</name>
-        </Folder>
-        <Folder>
-          <name>prePPA 2HOV</name>
-        </Folder>
-        <Folder>
-          <name>PA 3HOV</name>
-        </Folder>
-        <Folder>
-          <name>prePA 3HOV</name>
-        </Folder>
-        <Folder>
-          <name>prePA preHOV</name>
-        </Folder>
-		<styleUrl>#toggler</styleUrl>
-      </Folder>
-      <Folder>
-        <name>DVP South</name>
-        <description>Map Version: [CanadaAndUSANorth+motorway200_TeleAtlas_nam2014.06-22.0-39@1599535.1402689634]</description>
-        <Folder>
-          <name>postPA</name>
-        </Folder>
-        <Folder>
-          <name>PPA 2HOV</name>
-        </Folder>
-        <Folder>
-          <name>prePPA 2HOV</name>
-        </Folder>
-        <Folder>
-          <name>PA 3HOV</name>
-        </Folder>
-        <Folder>
-          <name>prePA 3HOV</name>
-        </Folder>
-        <Folder>
-          <name>prePA preHOV</name>
-        </Folder>
-		<styleUrl>#toggler</styleUrl>
-      </Folder>
-	  <styleUrl>#toggler</styleUrl>
     </Folder>
   </Document>
 </kml>

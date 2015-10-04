@@ -33,7 +33,11 @@ def index():
 @app.route("/plot/<render>")
 def plot(render=False):
 	data = get_data(file, render)
-	return render_template('plot.html', maps=data['maps'], api_key=GOOGLE_API_KEY, github_root=GITHUB_ROOT)
+	return render_template(
+		'plot.html', title="HOV lanes & Pan Am Games",
+		maps=data['maps'], api_key=GOOGLE_API_KEY,
+		github_root=GITHUB_ROOT
+	)
 
 @app.route("/datasets/<file>")
 def datasets(file):

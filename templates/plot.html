@@ -1,8 +1,7 @@
 {% extends "base.html" %}
 
-{% block title %}Plot the things{% endblock %}
 {% block content %}
-	<h1>Plot the things</h1>
+	<h1>{{ title }}</h1>
 	<div id="stuff"></div>
 	<div id="map-info"></div>
 	<div id="map"></div>
@@ -37,6 +36,6 @@
 		}
 	</script>
 	<script async defer
-        src="https://maps.googleapis.com/maps/api/js?key={{ api_key }}&signed_in=true&callback=initMap">
+        src="https://maps.googleapis.com/maps/api/js?key={{ api_key }}&signed_in=false&callback=initMap">
     </script>
 {% endblock %}

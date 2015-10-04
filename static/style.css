@@ -4,6 +4,10 @@ html, body {
 	padding: 0;
 }
 
+h1 {
+	margin: 20px;
+}
+
 #map {
 	height: 100%;
 }
