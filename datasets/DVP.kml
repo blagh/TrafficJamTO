@@ -12,121 +12,79 @@
     <Style id="s_aa340034">
       <LineStyle>
         <width>5.0</width>
-        <color>aa340034</color>
+        <color>aaBCF5A9  </color>
       </LineStyle>
     </Style>
     <Style id="s_aa7f007f">
       <LineStyle>
         <width>5.0</width>
-        <color>aa7f007f</color>
+        <color>aa81F781 </color>
       </LineStyle>
     </Style>
     <Style id="s_aab200b2">
       <LineStyle>
         <width>5.0</width>
-        <color>aab200b2</color>
+        <color>aa2EFE2E  </color>
       </LineStyle>
     </Style>
     <Style id="s_aaff00ff">
       <LineStyle>
         <width>5.0</width>
-        <color>aaff00ff</color>
+        <color>aa01DF01 </color>
       </LineStyle>
     </Style>
     <Style id="s_aa000099">
       <LineStyle>
         <width>5.0</width>
-        <color>aa000099</color>
+        <color>aa86B404 </color>
       </LineStyle>
     </Style>
     <Style id="s_aa0000e5">
       <LineStyle>
         <width>5.0</width>
-        <color>aa0000e5</color>
+        <color>aaFFFF00 </color>
       </LineStyle>
     </Style>
     <Style id="s_aa0066ff">
       <LineStyle>
         <width>5.0</width>
-        <color>aa0066ff</color>
+        <color>aaFFBF00 </color>
       </LineStyle>
     </Style>
     <Style id="s_aa66b2ff">
       <LineStyle>
         <width>5.0</width>
-        <color>aa66b2ff</color>
+        <color>aaFF8000 </color>
       </LineStyle>
     </Style>
     <Style id="s_aa00ffff">
       <LineStyle>
         <width>5.0</width>
-        <color>aa00ffff</color>
+        <color>aaFE642E </color>
       </LineStyle>
     </Style>
     <Style id="s_aa7fffcc">
       <LineStyle>
         <width>5.0</width>
-        <color>aa7fffcc</color>
+        <color>aaFF0000 </color>
       </LineStyle>
     </Style>
     <Style id="s_aa00ff99">
       <LineStyle>
         <width>5.0</width>
-        <color>aa00ff99</color>
+        <color>aaB40404 </color>
       </LineStyle>
     </Style>
     <Style id="s_aa00e500">
       <LineStyle>
         <width>5.0</width>
-        <color>aa00e500</color>
+        <color>aa8A0808 </color>
       </LineStyle>
     </Style>
     <Style id="s_aa007f00">
       <LineStyle>
         <width>5.0</width>
-        <color>aa007f00</color>
-      </LineStyle>
-    </Style>
-    <Style id="r_aa005500">
-      <LineStyle>
-        <width>5.0</width>
-        <color>aa005500</color>
-      </LineStyle>
-    </Style>
-    <Style id="r_aa00d500">
-      <LineStyle>
-        <width>5.0</width>
-        <color>aa00d500</color>
-      </LineStyle>
-    </Style>
-    <Style id="r_aa00ff81">
-      <LineStyle>
-        <width>5.0</width>
-        <color>aa00ff81</color>
-      </LineStyle>
-    </Style>
-    <Style id="r_aa00ffff">
-      <LineStyle>
-        <width>5.0</width>
-        <color>aa00ffff</color>
-      </LineStyle>
-    </Style>
-    <Style id="r_aa009bff">
-      <LineStyle>
-        <width>5.0</width>
-        <color>aa009bff</color>
-      </LineStyle>
-    </Style>
-    <Style id="r_aa0000ff">
-      <LineStyle>
-        <width>5.0</width>
-        <color>aa0000ff</color>
-      </LineStyle>
-    </Style>
-    <Style id="r_aa000082">
-      <LineStyle>
-        <width>5.0</width>
-        <color>aa000082</color>
+        <color>aa3B0B0B </color>
       </LineStyle>
     </Style>
     <Folder>
