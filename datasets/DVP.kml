@@ -4,7 +4,7 @@
   <Document>
 	<name>HOV &amp; Pan Am</name>
 	<open>1</open>
-  	<Style id="toggler">
+	<Style id="toggler">
       <ListStyle>
         <listItemType>radioFolder</listItemType>
       </ListStyle>
@@ -134,11 +134,14 @@
 	  <open>1</open>
       <name>Speeds</name>
       <Folder>
+<styleUrl>#toggler</styleUrl>
         <name>DVP North</name>
         <description>Map Version: [CanadaAndUSANorth+motorway200_TeleAtlas_nam2014.06-22.0-39@1599535.1402689634]</description>
         <Folder>
+<styleUrl>#toggler</styleUrl>
           <name>postPA</name>
           <Folder>
+<styleUrl>#toggler</styleUrl>
             <name>Base Set</name>
             <Placemark>
               <name>Average speed: 85.77 kph</name>
@@ -2049,8 +2052,10 @@
           </Folder>
         </Folder>
         <Folder>
+<styleUrl>#toggler</styleUrl>
           <name>PPA 2HOV</name>
           <Folder>
+<styleUrl>#toggler</styleUrl>
             <name>Base Set</name>
             <Placemark>
               <name>Average speed: 93.42 kph</name>
@@ -3961,8 +3966,10 @@
           </Folder>
         </Folder>
         <Folder>
+<styleUrl>#toggler</styleUrl>
           <name>prePPA 2HOV</name>
           <Folder>
+<styleUrl>#toggler</styleUrl>
             <name>Base Set</name>
             <Placemark>
               <name>Average speed: 87.48 kph</name>
@@ -5873,8 +5880,10 @@
           </Folder>
         </Folder>
         <Folder>
+<styleUrl>#toggler</styleUrl>
           <name>PA 3HOV</name>
           <Folder>
+<styleUrl>#toggler</styleUrl>
             <name>Base Set</name>
             <Placemark>
               <name>Average speed: 62.02 kph</name>
@@ -7785,8 +7794,10 @@
           </Folder>
         </Folder>
         <Folder>
+<styleUrl>#toggler</styleUrl>
           <name>prePA 3HOV</name>
           <Folder>
+<styleUrl>#toggler</styleUrl>
             <name>Base Set</name>
             <Placemark>
               <name>Average speed: 92.17 kph</name>
@@ -9697,8 +9708,10 @@
           </Folder>
         </Folder>
         <Folder>
+<styleUrl>#toggler</styleUrl>
           <name>prePA preHOV</name>
           <Folder>
+<styleUrl>#toggler</styleUrl>
             <name>Base Set</name>
             <Placemark>
               <name>Average speed: 70.07 kph</name>
@@ -11610,11 +11623,14 @@
         </Folder>
       </Folder>
       <Folder>
+<styleUrl>#toggler</styleUrl>
         <name>DVP South</name>
         <description>Map Version: [CanadaAndUSANorth+motorway200_TeleAtlas_nam2014.06-22.0-39@1599535.1402689634]</description>
         <Folder>
+<styleUrl>#toggler</styleUrl>
           <name>postPA</name>
           <Folder>
+<styleUrl>#toggler</styleUrl>
             <name>Base Set</name>
             <Placemark>
               <name>Average speed: 39.16 kph</name>
@@ -13796,8 +13812,10 @@
           </Folder>
         </Folder>
         <Folder>
+<styleUrl>#toggler</styleUrl>
           <name>PPA 2HOV</name>
           <Folder>
+<styleUrl>#toggler</styleUrl>
             <name>Base Set</name>
             <Placemark>
               <name>Average speed: 30.21 kph</name>
@@ -15979,8 +15997,10 @@
           </Folder>
         </Folder>
         <Folder>
+<styleUrl>#toggler</styleUrl>
           <name>prePPA 2HOV</name>
           <Folder>
+<styleUrl>#toggler</styleUrl>
             <name>Base Set</name>
             <Placemark>
               <name>Average speed: 33.77 kph</name>
@@ -18162,8 +18182,10 @@
           </Folder>
         </Folder>
         <Folder>
+<styleUrl>#toggler</styleUrl>
           <name>PA 3HOV</name>
           <Folder>
+<styleUrl>#toggler</styleUrl>
             <name>Base Set</name>
             <Placemark>
               <name>Average speed: 23.8 kph</name>
@@ -20345,8 +20367,10 @@
           </Folder>
         </Folder>
         <Folder>
+<styleUrl>#toggler</styleUrl>
           <name>prePA 3HOV</name>
           <Folder>
+<styleUrl>#toggler</styleUrl>
             <name>Base Set</name>
             <Placemark>
               <name>Average speed: 23.12 kph</name>
@@ -22528,8 +22552,10 @@
           </Folder>
         </Folder>
         <Folder>
+<styleUrl>#toggler</styleUrl>
           <name>prePA preHOV</name>
           <Folder>
+<styleUrl>#toggler</styleUrl>
             <name>Base Set</name>
             <Placemark>
               <name>Average speed: 35.85 kph</name>
